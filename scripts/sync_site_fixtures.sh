@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+# Exclusions of non-team (demo sign-up) records are defined by name in property_manager/hooks.py (_excluded_*).
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 bench_root="${BENCH_ROOT:-/home/frappe/frappe-bench}"

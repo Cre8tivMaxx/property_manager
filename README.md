@@ -16,7 +16,12 @@ The filters in `property_manager/hooks.py` select work created from 8 November
 2026 onward. Client Scripts, Server Scripts, and Web Pages also require an
 unset module. Custom Fields, Property Setters, Custom DocPerms, Reports,
 Workspaces, and Dashboard Chart Sources require the team's owner. Roles require
-the team owner or the `Demo Tester` name. Custom DocTypes require
+the team owner.
+Records added by delegator workers for the demo sign-up feature are excluded by
+explicit name lists at the top of `hooks.py` (Role `Demo Tester` and its Custom
+DocPerms, Server Scripts `Demo Self Signup Desk Access` and `Demo Tester Own User
+List`, Workspace `Demo Property Management`, Web Pages `demo-property-management-landing`
+and `demo`). Custom DocTypes require
 `custom=1`; Reports, Print Formats, Web Forms, Notifications, cards, and charts
 require their non-standard flag. These filters exclude stock ERPNext records and older changes from
 the installed `property_managment` app and other site setup. The script scans
