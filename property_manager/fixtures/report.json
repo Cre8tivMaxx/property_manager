@@ -1,0 +1,206 @@
+[
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[[\"Item\",\"item_group\",\"descendants of (inclusive)\",\"building\"]],\"fields\":[[\"name\",\"Item\"],[\"docstatus\",\"Item\"],[\"custom_branch\",\"Item\"],[\"custom_building\",\"Item\"],[\"custom_building_number\",\"Item\"],[\"custom_building_area\",\"Item\"],[\"custom_city\",\"Item\"],[\"disabled\",\"Item\"]],\"order_by\":\"`tabItem`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"docstatus\":120,\"custom_branch\":120,\"custom_building\":120,\"custom_building_number\":149,\"custom_building_area\":120,\"custom_city\":120,\"disabled\":120},\"group_by\":null}",
+  "letter_head": null,
+  "modified": "2026-11-08 12:28:04.625620",
+  "module": "Stock",
+  "name": "Building report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Item",
+  "reference_report": null,
+  "report_name": "Building report",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Item Manager"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Maintenance User"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Manufacturing User"
+   },
+   {
+    "parent": "Building report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Desk User"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[[\"Item\",\"item_group\",\"descendants of (inclusive)\",\"Property\"]],\"fields\":[[\"name\",\"Item\"],[\"docstatus\",\"Item\"],[\"custom_unit_typre\",\"Item\"],[\"custom_unit_condition\",\"Item\"],[\"custom_rent_type\",\"Item\"],[\"custom_floor_no\",\"Item\"],[\"custom_unit_no\",\"Item\"],[\"custom_rooms\",\"Item\"],[\"custom_halls\",\"Item\"],[\"custom_bathrooms\",\"Item\"],[\"custom_kitchens\",\"Item\"],[\"custom_electricity_no\",\"Item\"],[\"custom_water_no\",\"Item\"],[\"custom_parking\",\"Item\"],[\"custom_furnished\",\"Item\"],[\"custom_central_air_conditioning\",\"Item\"],[\"custom_internet\",\"Item\"],[\"custom_branch\",\"Item\"],[\"variant_of\",\"Item\"],[\"custom_building\",\"Item\"],[\"custom_building_number\",\"Item\"],[\"custom_city\",\"Item\"],[\"custom_building_area\",\"Item\"],[\"disabled\",\"Item\"]],\"order_by\":\"`tabItem`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"docstatus\":120,\"custom_unit_typre\":120,\"custom_unit_condition\":120,\"custom_rent_type\":120,\"custom_floor_no\":120,\"custom_unit_no\":120,\"custom_rooms\":120,\"custom_halls\":120,\"custom_bathrooms\":120,\"custom_kitchens\":120,\"custom_electricity_no\":120,\"custom_water_no\":120,\"custom_parking\":120,\"custom_furnished\":120,\"custom_central_air_conditioning\":120,\"custom_internet\":120,\"custom_branch\":120,\"variant_of\":120,\"custom_building\":120,\"custom_building_number\":149,\"custom_city\":120,\"custom_building_area\":120,\"disabled\":120},\"group_by\":null}",
+  "letter_head": null,
+  "modified": "2026-11-08 12:23:55.238268",
+  "module": "Stock",
+  "name": "Property report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Item",
+  "reference_report": null,
+  "report_name": "Property report",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Item Manager"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Maintenance User"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Manufacturing User"
+   },
+   {
+    "parent": "Property report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Desk User"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[],\"fields\":[[\"name\",\"Subscription\"],[\"docstatus\",\"Subscription\"],[\"party\",\"Subscription\"],[\"plan\",\"Subscription Plan Detail\"],[\"status\",\"Subscription\"],[\"start_date\",\"Subscription\"],[\"end_date\",\"Subscription\"],[\"number_of_days\",\"Subscription\"]],\"order_by\":\"`tabSubscription`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"party\":68,\"Subscription Plan Detail:plan\":182,\"status\":120,\"start_date\":135,\"end_date\":157,\"number_of_days\":128},\"group_by\":null}",
+  "letter_head": null,
+  "modified": "2026-11-09 09:20:34.296460",
+  "module": "Accounts",
+  "name": "Residential Lease",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Subscription",
+  "reference_report": null,
+  "report_name": "Residential Lease",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "Residential Lease",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   },
+   {
+    "parent": "Residential Lease",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Residential Lease",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   }
+  ],
+  "timeout": 0
+ }
+]
