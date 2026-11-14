@@ -1,1 +1,45 @@
-[]
+[
+ {
+  "attach_files": "",
+  "attach_print": 0,
+  "channel": "System Notification",
+  "condition": "doc.docstatus != 2 and doc.status != \"Cancelled\"",
+  "date_changed": "end_date",
+  "days_in_advance": 30,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Subscription",
+  "enabled": 1,
+  "event": "Days Before",
+  "from_attach_field": null,
+  "is_standard": 0,
+  "message": "ينتهي العقد {{ doc.name }} بتاريخ {{ doc.end_date }}. يرجى مراجعة التجديد أو الإخلاء",
+  "message_type": "Markdown",
+  "method": null,
+  "modified": "2026-11-11 15:33:25.375777",
+  "module": null,
+  "name": "اقتراب انتهاء عقد الايجار",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "اقتراب انتهاء عقد الايجار",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": null
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 0,
+  "sender": null,
+  "sender_email": null,
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "العقد {{ doc.name }} يقترب من الانتها",
+  "value_changed": null
+ }
+]

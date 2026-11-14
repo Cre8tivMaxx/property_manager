@@ -10,7 +10,7 @@ from pathlib import Path
 import frappe
 from frappe.core.doctype.data_import.data_import import export_json
 
-from property_manager.hooks import fixtures
+from property_manager.hooks import _excluded_roles, fixtures
 
 
 SENSITIVE = re.compile(r"password|secret|token|api_key", re.IGNORECASE)
@@ -47,7 +47,21 @@ def run():
             content = path.read_text(encoding="utf-8")
             if SENSITIVE.search(content):
                 raise RuntimeError(f"Sensitive term found in staged {path.name}; no fixtures were changed")
-            count = len(json.loads(content))
+            records = json.loads(content)
+            # Role links can be embedded as child rows (for example Report.roles),
+            # so the top-level Role and Custom DocPerm filters alone are not enough.
+            for record in records:
+                for field, value in record.items():
+                    if isinstance(value, list):
+                        record[field] = [
+                            row for row in value
+                            if not (
+                                isinstance(row, dict)
+                                and row.get("role") in _excluded_roles
+                            )
+                        ]
+            path.write_text(json.dumps(records, ensure_ascii=False, indent=1), encoding="utf-8")
+            count = len(records)
             staged.append((path, destination / path.name, doctype, count))
 
         destination.mkdir(parents=True, exist_ok=True)
