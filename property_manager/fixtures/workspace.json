@@ -6,14 +6,14 @@
    {
     "custom_block_name": "Available Rental Units",
     "label": "Available Rental Units",
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "custom_blocks",
     "parenttype": "Workspace"
    },
    {
     "custom_block_name": "Building Photo",
     "label": "Building Photo",
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "custom_blocks",
     "parenttype": "Workspace"
    }
@@ -23,9 +23,9 @@
   "for_user": "",
   "hide_custom": 0,
   "icon": "up",
-  "indicator_color": "green",
+  "indicator_color": "",
   "is_hidden": 0,
-  "label": "المتاح والحجز",
+  "label": "Available Rental Units",
   "links": [
    {
     "dependencies": "",
@@ -39,7 +39,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -57,7 +57,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -75,7 +75,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -93,7 +93,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -111,7 +111,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -129,7 +129,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -147,7 +147,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -165,7 +165,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
@@ -183,16 +183,16 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "المتاح والحجز",
+    "parent": "Available Rental Units",
     "parentfield": "links",
     "parenttype": "Workspace",
     "report_ref_doctype": null,
     "type": "Link"
    }
   ],
-  "modified": "2026-11-11 06:24:12.921772",
+  "modified": "2026-11-13 13:36:27.436945",
   "module": "",
-  "name": "المتاح والحجز",
+  "name": "Available Rental Units",
   "number_cards": [],
   "parent_page": "",
   "public": 1,
@@ -201,6 +201,6 @@
   "roles": [],
   "sequence_id": 3.1,
   "shortcuts": [],
-  "title": "المتاح والحجز"
+  "title": "Available Rental Units"
  }
 ]
